@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 100%;
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  height: fit-content;
+}
+
+.container button {
+  height: fit-content;
+  width: 162.56px;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.container #todo_list {
+  display: flex;
+  width: fit-content;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: right;
+  height: fit-content;
+  margin: 1% 0px;
+}
+
+.container #todo_list .todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 0px;
+  border: 1px solid white;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+}
